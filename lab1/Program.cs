@@ -1,5 +1,4 @@
 ﻿using System;
-
 namespace lab1
 {
     class Program
