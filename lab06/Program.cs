@@ -27,6 +27,11 @@ namespace lab06
             OpiszSamochod(s3);
             OpiszSamochod(nowaMultipla);
             Console.WriteLine("Wyprodukowano: " + Samochod.IloscModeli);
+
+                Domena nowaDomena = new Domena("D0mena", 1999);
+                Serwer nowySerwer = new Serwer(4, 100, 16, "asp.net");
+                ProgramStrona.OpiszStrone(nowySerwer, nowaDomena);
+            
         }
     }
 }
